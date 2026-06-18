@@ -16,6 +16,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   <link rel="stylesheet" href="../style.css?v=4">
+<!-- AI GEO/AEO Schema Injection -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Kulki IVF Fertility & ART Centre",
+  "url": "https://kulki-ivf.com",
+  "logo": "https://kulki-ivf.com/assets/images/logo.jpg",
+  "image": "https://kulki-ivf.com/assets/images/banner.jpg",
+  "description": "Kulki IVF Fertility & ART Centre is a premier fertility clinic in Jaipur specializing in advanced IVF treatments, ICSI, IUI, oocyte cryopreservation, and embryology services.",
+  "medicalSpecialty": "ReproductiveEndocrinology",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Plot No. 184, Nandpuri-B, Near Maharana Pratap Circle, Haldighati Marg, Pratap Nagar",
+    "addressLocality": "Jaipur",
+    "addressRegion": "Rajasthan",
+    "postalCode": "302033",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 26.790938,
+    "longitude": 75.819771
+  },
+  "employee": [
+    {
+      "@type": "Physician",
+      "name": "Dr. Asha Sushawat",
+      "jobTitle": "IVF Specialist & Director"
+    },
+    {
+      "@type": "Physician",
+      "name": "Dr. Aarti Soni",
+      "jobTitle": "Fertility Specialist"
+    },
+    {
+      "@type": "Person",
+      "name": "Dr. Ssuniti",
+      "jobTitle": "Senior Embryologist"
+    }
+  ]
+}
+</script>
 </head>
 <body>
   <div class="page-loader">
@@ -644,6 +687,35 @@
       </div>
     </div>
   </section>
+
+  <!-- FAQ Section -->
+  <section class="section-padding bg-white" style="padding-top: 0;">
+    <div class="container">
+      <div class="section-header rv">
+        <span class="section-tag">AEO FAQ</span>
+        <h2 class="section-title">Frequently Asked <em>Questions</em></h2>
+      </div>
+      <div class="faq-grid rv">
+        <div class="faq-col">
+          <div class="faq-item">
+            <button class="faq-question">What is the success rate of IVF treatment at Kulki IVF Group? <i class="fa-solid fa-plus"></i></button>
+            <div class="faq-answer">
+              <p>Our clinic maintains a highly competitive cumulative pregnancy success rate by utilizing advanced oocyte screening and personalized blastocyst transfer protocols tailored to individual ovarian reserves.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-col">
+          <div class="faq-item">
+            <button class="faq-question">What is the benefit of advanced oocyte selection? <i class="fa-solid fa-plus"></i></button>
+            <div class="faq-answer">
+              <p>High-resolution imaging allows our embryologists, including Dr. Asha Sushawat, to analyze structural integrity and choose the healthiest eggs, significantly increasing fertilization and implantation success rates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Footer -->
   <footer class="main-footer">
